@@ -1,0 +1,245 @@
+/* Shared styles  */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button-primary:hover {
+    border: 4px solid #E55473;
+    background: #FFF;
+    color: #111010;
+    padding: 16px 39px;
+}
+
+.bg-primary {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.description-primary {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 700px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 25px auto;
+}
+
+.description-alignment {
+    text-align: center;
+}
+
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.align-primary {
+    margin-bottom: 140px;
+}
+
+.flowers-container-primary {
+    margin: 50px 240px 0;
+}
+
+.flowers-primary {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.span-primary {
+    color: #E55473;
+}
+
+/* ------------------- Header related styles ------------------- */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+.header-container img {
+    margin-top: 50px;
+}
+
+.header-content {
+    max-width: 708px;
+    max-height: 510px;
+    margin-top: 197px;
+}
+
+.header-content-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+
+/* ----------------- Main related styles ----------------- */
+
+
+/* Featured flower styles */
+
+.flowers-container-primary h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+#flower-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0 75px;
+}
+
+#flower-two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 45px 50px 45px;
+}
+
+#flower-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 73px 0px 73px;
+}
+
+/* Delivery and support related styles */
+
+.delivery-support-parent-container {
+    margin: 100px 240px 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-support-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 85px;
+}
+
+.delivery-support-content h5 {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Our best deals related styles  */
+
+.best-deals-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.best-deals {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.best-deals img {
+    width: 200px;
+    background: rgba(73, 163, 214, 0.103);
+    border-radius: 20px 140px;
+}
+
+#best-deals-one {
+    padding: 40px 30px 1px;
+}
+
+#best-deals-two {
+    padding: 80px 30px 60px;
+}
+
+#best-deals-three {
+    padding: 64px 30px 1px;
+}
+
+#best-deals-four {
+    padding: 88px 30px 1px;
+}
+
+/* Hot deals and discount related styles */
+.hot-deals-parent-container {
+    margin-top: 130px;
+}
+
+.hot-deals-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 240px;
+}
+
+.hot-deals-content {
+    max-width: 600px;
+    margin-top: 230px;
+    text-align: center;
+}
+
+.hot-deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deals-container img {
+    margin: 100px 0;
+}
+
+/* Latest deals related styles */
+
+.latest-deals-container {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    margin: 0 230px;
+}
+
+.latest-deals {
+    padding: 120px 200px;
+}
+
+.subscribe-content {
+    text-align: center;
+    width: auto;
+}
+
+.subscribe-content input[type="email"] {
+    width: 60%;
+    padding: 25px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+/* Footer related styles */
+
+.footer-content {
+    background: #111010;
+    padding: 130px 0;
+}
